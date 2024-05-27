@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { LibGlobalComponent } from './lib-global.component';
+import { ButtonComponent } from './button.component';
 
 import { within } from '@storybook/testing-library';
 import { expect } from '@storybook/jest';
 
-const meta: Meta<LibGlobalComponent> = {
-  component: LibGlobalComponent,
-  title: 'LibGlobalComponent',
+const meta: Meta<ButtonComponent> = {
+  component: ButtonComponent,
+  title: 'ButtonComponent',
 };
 export default meta;
-type Story = StoryObj<LibGlobalComponent>;
+type Story = StoryObj<ButtonComponent>;
 
 export const Primary: Story = {
   args: {},

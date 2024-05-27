@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@lib-domain": ["lib-domain/src/index.ts"],
-      "@lib-global": ["lib-global/src/index.ts"]
+      "@lib-main": ["lib-main/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

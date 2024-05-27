@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { LibGlobalComponent } from './lib-global.component';
+import { TaskComponent } from './task.component';
 
-describe('LibGlobalComponent', () => {
-  let component: LibGlobalComponent;
-  let fixture: ComponentFixture<LibGlobalComponent>;
+describe('TaskComponent', () => {
+  let component: TaskComponent;
+  let fixture: ComponentFixture<TaskComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LibGlobalComponent],
+      imports: [TaskComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(LibGlobalComponent);
+    fixture = TestBed.createComponent(TaskComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
